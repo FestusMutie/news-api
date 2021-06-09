@@ -1,5 +1,5 @@
 ## News API
-This project was generated with Python 3.8.
+This project was generated with Python 3.6.13
 
 ## Author:
 Festus Mutie
