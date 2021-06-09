@@ -6,19 +6,19 @@
   <h1 align-text="center" class="text-capitalize"> {{id}} </h3>
   <div class="container">
     <div class="card-columns">
-      {% for article in articles %}
+      {% for source in sources %}
 
       <div class="card">
-        <img class="card" src="{{article.image}}" alt="Card image cap" size="100px180">
+        <img class="card" src="{{source.image}}" alt="Card image cap" size="100px180">
         <div class="card-body">
-          <h5 class="card-title">{{article.author}}</h5>
-          <p class="card-text">{{article.description}}</p>
-          <a href="{{article.url}}">
+          <h5 class="card-title">{{source.author}}</h5>
+          <p class="card-text">{{source.description}}</p>
+          <a href="{{source.url}}">
             <p class="card-text">Click here for more details!</p>
           </a>
         </div>
         <div class="card-footer">
-          <small class="text-muted">Article date:{{article.time}}</small>
+          <small class="text-muted">source date:{{source.time}}</small>
         </div>
       </div>
       {% endfor %}

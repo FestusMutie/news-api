@@ -1,15 +1,3 @@
-class NewsArticle:
-        '''
-        News article class to define the newsArticle object 
-        '''
-        def __init__(self,author,description,time,url,image,title):
-                self.id = id
-                self.author = author
-                self.description = description
-                self.time = time
-                self.url = url
-                self.image = image
-                self.title = title
 
 class NewsSource:
         '''
@@ -32,3 +20,16 @@ class Category:
                 self.url = url
                 self.image = image
                 self.title = title  
+
+class NewsArticle:
+        '''
+        News article class to define the newsArticle object 
+        '''
+        def __init__(self,author,description,time,url,image,title):
+                self.id = id
+                self.author = author
+                self.description = description
+                self.time = time
+                self.url = url
+                self.image = image
+                self.title = title
